@@ -1,4 +1,4 @@
-CREATE VIEW view_avg_grade AS
+CREATE TEMPORARY VIEW view_avg_grade AS
 SELECT
     name,
     subject,
